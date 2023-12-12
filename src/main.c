@@ -4,7 +4,7 @@
  * main - Entry point
  * @argc: Number of arguments passed to the program
  * @argv: Pointer to string arguments passed to the program
- * Return: (0) on success, exits with failure status on failure
+ * Return: (0) on success, exit with failure status on failure
  */
 int main(int argc, char **argv)
 {
