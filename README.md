@@ -10,17 +10,26 @@ https://www.youtube.com/watch?v=3dQecT5-3U0
 https://www.linkedin.com/pulse/maze-project-blog-post-marian-bassily-rikwf/
 
 https://www.linkedin.com/in/marian-bassily-221930270/
+
  
 Installation
 
 sudo apt-get install python3.7
+
 sudo apt update
+
 sudo apt-get install python3-pip
+
 make linux_install
+
 make linux 
+
 sudo apt-get install libsdl2-dev
 
+
+
 Usage
+
 The Maze is 3D game built using SDL and Raycasting. On the map, the player can move in all four directions using keys W, A, S, and D.
 
 The player can move through the maze and turn left or right as desired.
@@ -62,6 +71,7 @@ Contains image files.
 
 LICENSE
 
+
 BSD 2-Clause License
 
 Copyright (c) [year], [fullname]
@@ -90,6 +100,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 Demo
+
  Landing page
   https://metsyb1.wixsite.com/mysite
 
