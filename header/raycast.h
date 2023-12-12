@@ -16,4 +16,5 @@ int check_intersect_orientation(SDL_Rect wall, SDL_Point *pointA,
 		SDL_Point *pointB);
 int lines_intersect(line *line1, line *line2, SDL_Point *hitp);
 
+
 #endif /* RAYCAST_H */
