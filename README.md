@@ -1,3 +1,4 @@
+![Maze 2](https://github.com/Mariangithubit/The-Maze/assets/125896481/fb4347b1-1f5d-49bb-a1f2-7a5725dac824)
 The Maze 
 
 Introduction
