@@ -45,6 +45,7 @@ typedef struct map
 	int columns;
 } map_t;
 
+
 /**
  * struct line - Data structure that represents a line
  * @p1: start of line. Contains it's x and y coordinates
@@ -55,6 +56,7 @@ typedef struct line
 	SDL_Point p1;
 	SDL_Point p2;
 } line;
+
 
 /**
  * struct thread_data - Holds data that will be used during multi-threading
