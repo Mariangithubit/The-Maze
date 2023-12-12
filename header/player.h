@@ -8,4 +8,5 @@ void player_collision_detection(player *player, map_t *map);
 int quadrant_of_angle(int angle, int *resulting_angle);
 void slide_on_wall(player *player);
 
+
 #endif
