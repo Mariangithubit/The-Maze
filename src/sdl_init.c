@@ -30,7 +30,7 @@ void create_window(char *name, sdl_instance *sdl)
 /**
  * create_renderer - creates sdl renderer instance
  * @sdl: data structure of sdl_instance
- * Return: nothing
+ * Return: void
  */
 void create_renderer(sdl_instance *sdl)
 {
@@ -47,7 +47,7 @@ void create_renderer(sdl_instance *sdl)
 /**
  * safe_close_sdl - frees and closes sdl
  * @sdl: data structure of sdl_instance
- * Return: nothing
+ * Return: void
  */
 void safe_close_sdl(sdl_instance *sdl)
 {
