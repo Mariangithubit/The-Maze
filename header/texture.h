@@ -8,4 +8,5 @@ void texture_walls(sdl_instance *sdl, double line_height,
 void weapon_gun(sdl_instance *sdl, map_t *map);
 int render_thread(void *td);
 
+
 #endif /* TEXTURE_H */
