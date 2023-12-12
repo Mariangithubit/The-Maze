@@ -41,4 +41,5 @@ void send_frame(sdl_instance *sdl);
 SDL_Point rotate_point(const SDL_Point *point, float cx, float cy, float deg,
 		float ray_size);
 
+
 #endif
