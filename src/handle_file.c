@@ -1,5 +1,4 @@
 #include "../header/maze.h"
-
 /**
  * close_file - closes an opened file
  * @fp: File pointer
