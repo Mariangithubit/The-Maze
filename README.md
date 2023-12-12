@@ -4,11 +4,15 @@ Introduction
   The 3D-Maze Solver project aimed to look at how it is possible to do a game without a game engine and develop an interactive maze-solving application using SDL2, offering a combination of entertainment and algorithmic challenges.
 
 LINKS
+
 https://www.youtube.com/watch?v=3dQecT5-3U0
+
 https://www.linkedin.com/pulse/maze-project-blog-post-marian-bassily-rikwf/
+
 https://www.linkedin.com/in/marian-bassily-221930270/
  
 Installation
+
 sudo apt-get install python3.7
 sudo apt update
 sudo apt-get install python3-pip
