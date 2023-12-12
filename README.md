@@ -14,6 +14,7 @@ sudo apt update
 sudo apt-get install python3-pip
 make linux_install
 make linux 
+sudo apt-get install libsdl2-dev
 
 Usage
 The Maze is 3D game built using SDL and Raycasting. On the map, the player can move in all four directions using keys W, A, S, and D.
