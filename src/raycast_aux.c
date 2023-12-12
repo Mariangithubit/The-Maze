@@ -1,9 +1,9 @@
-#include "../inc/maze.h"
+#include "../header/maze.h"
 
 /**
  * untextured_sky - Draws untextured ceiling to the screen
  * @sdl: instance of sdl data structure
- * Return: nothing
+ * Return: void
  */
 void untextured_sky(sdl_instance *sdl)
 {
@@ -16,7 +16,7 @@ void untextured_sky(sdl_instance *sdl)
 /**
  * untextured_floor - Draws untextured floor to the screen
  * @sdl: instance of sdl data structure
- * Return: nothing
+ * Return: void
  */
 void untextured_floor(sdl_instance *sdl)
 {
@@ -31,7 +31,7 @@ void untextured_floor(sdl_instance *sdl)
  * player_collision_detection - detects collision of player with walls
  * @player: pointer to data structure of player holding player information
  * @map: pointer to 2 dimension grid
- * Return: nothing
+ * Return: void
  */
 void player_collision_detection(player *player, map_t *map)
 {
@@ -56,6 +56,7 @@ void player_collision_detection(player *player, map_t *map)
 		}
 	}
 }
+
 
 /**
  * check_intersect_orientation - Checks if a line intersects with
