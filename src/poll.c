@@ -4,7 +4,7 @@
  * game_event_loop - handles SDL rendering loop and listening to events
  * @sdl: data structure of sdl_instance
  * @map: map_t data structure representing 2D map
- * Return: nothing
+ * Return: void
  */
 void game_event_loop(sdl_instance *sdl, map_t *map)
 {
