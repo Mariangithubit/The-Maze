@@ -12,4 +12,5 @@ void validate_line_data(int max_line_count, char *line, FILE *fp,
 int in_array(char needle, char *haystack, unsigned int haystack_size);
 char *concat(const char *s1, const char *s2);
 void free_map(map_t *map);
+
 #endif
