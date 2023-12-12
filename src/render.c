@@ -4,7 +4,7 @@
  * draw_2d_map - creates 2d points to the screen
  * @sdl: data structure of sdl_instance
  * @map: map_t data structure representing 2D map
- * Return: nothing
+ * Return: void
  */
 void draw_2d_map(sdl_instance *sdl, map_t *map)
 {
@@ -34,7 +34,7 @@ void draw_2d_map(sdl_instance *sdl, map_t *map)
 /**
  * send_frame - draws the results in renderer to the screen
  * @sdl: data structure of sdl_instance
- * Return: nothing
+ * Return: void
  */
 void send_frame(sdl_instance *sdl)
 {
