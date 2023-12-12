@@ -44,6 +44,7 @@ int in_array(char needle, char *haystack, unsigned int haystack_size)
 	return (0);
 }
 
+
 /**
  * validate_line_data - check for errors in lines in file
  * @max_line_count: check maximum limit to lines length
