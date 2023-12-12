@@ -1,4 +1,4 @@
-#include "../headedr/maze.h"
+#include "../header/maze.h"
 
 /**
  * rotate_point - rotates an SDL_Point from an arbitrary center by @deg
@@ -39,7 +39,7 @@ SDL_Point rotate_point(const SDL_Point *point, float cx, float cy,
  * @player: data structure of player
  * @map: Datastructure of map_t holding map information
  * @map_active: Boolean to indicate map displayed or not
- * Return: nothing
+ * Return: void
  */
 void raycast(sdl_instance *sdl, player *player, map_t *map,
 		SDL_bool *map_active)
